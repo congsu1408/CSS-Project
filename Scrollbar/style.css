@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: aliceblue;
+    padding: 50px;
+}
+
+body {
+    background-color: #333;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(0, 204, 211);
+    background-color: rgb(112, 64, 0);
+    border-radius: 30px;
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #ffd000,#eb1d36, #00ff62, #ffd000);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00ff62,#eb1d36, #ffd000, #00ff62);
+}
