@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hotpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+#accordion{
+    margin: 100px auto;
+    width: 600px;
+    
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+label{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
+    text-shadow: 0.4px 0.4px 0.4px #000;
+}
+input{
+    display: none;
+}
+span{
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: red;
+}
+.content{
+    overflow: hidden;
+    padding: 0 10px;
+    line-height: 25px;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+input:checked ~ .content{
+    max-height: 100px;
+}
